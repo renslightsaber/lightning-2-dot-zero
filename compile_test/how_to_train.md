@@ -31,7 +31,7 @@ $ python train.py --project_name 'Lightning_2_dot_zero' \
 - `strategy` : [Trainer strategy](https://lightning.ai/docs/pytorch/stable/extensions/strategy.html) (Default: `auto`)
 - `n_epochs` : Epochs
 - `bs` : Batch Size (Default: 32)
-- [`train.py`](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/compile_test/train.py) 참고!   
+- Check [`train.py`](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/compile_test/train.py)   
 
 
 
