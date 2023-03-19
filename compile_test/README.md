@@ -1,9 +1,9 @@
-# Just "Compatibility with `torch.compile()` Test in Colab 
+# 'Compatibility with `torch.compile()`' Test in Colab 
 
-<img src="/imgs/스크린샷 2023-03-13 오후 2.48.04.png" width="99%"></img>
+<img src="/compile_test/imgs/스크린샷 2023-03-19 오후 2.28.18.png" width="99%"></img>
 
 ## Brief Test Info
- - source: [Training Compiled PyTorch 2.0 with PyTorch Lightning](https://lightning.ai/pages/blog/training-compiled-pytorch-2.0-with-pytorch-lightning/)
+ - Reference: [Training Compiled PyTorch 2.0 with PyTorch Lightning](https://lightning.ai/pages/blog/training-compiled-pytorch-2.0-with-pytorch-lightning/)
  - DATA : [`CIFAR10`](https://pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
  - TASK: `Classification`
  - Evaluation Metric: `Accuracy`, `F1-Score`
