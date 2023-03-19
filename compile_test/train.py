@@ -50,7 +50,7 @@ def load_data(batch_size):
 ##### just added torchmetrices modules
 ########################################################################################
 class LitModel(L.LightningModule):
-    def __init__(self, model_name = "resnet18"):
+    def __init__(self, model_name):
         super().__init__()
         self.model = create_model(model_name, num_classes=10)
         self.criterion = nn.CrossEntropyLoss()
