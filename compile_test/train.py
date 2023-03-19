@@ -99,15 +99,15 @@ class LitModel(L.LightningModule):
         return {'loss': loss, "acc": self.valid_acc, "f1": self.valid_f1}
 
     def configure_optimizers(self):
-        return torch.optim.Adam(self.model.parameters(), lr=0.001)
+        return torch.optim.Adam(self.model.parameters(), lr=1e-3)
 
 
 
 
 ######################## torch.compile() or not ############################################
-def get_model(model_name = config['model_name'],
-              is_compiled = config["is_compiled"],
-              mode = config["mode"],
+def get_model(model_name ,
+              is_compiled,
+              mode,
               ):
     
     model = LitModel(model_name = model_name)
@@ -124,6 +124,7 @@ def get_model(model_name = config['model_name'],
 def define():
     p = argparse.ArgumentParser()
     
+    p.add_argument('--project_name', type = str, default = "lightning 2.0 with torch.compile()", help="wandb")
     p.add_argument('--model_name', type = str, default = "resnet18", help="timm's image pretrained model")
     p.add_argument('--is_compiled', type = str, default = "compiled", help="torch.compile() option: 'compiled' or 'not compiled'")
     p.add_argument('--mode', type = str, default = "default", help="torch.compile()'s mode: 'default', 'reduce-overhead', 'max-autotune' ")
@@ -156,11 +157,11 @@ def main(config):
                       mode = config.mode)
     
     ## wandb_logger
-    wandb_logger = WandbLogger( project='Lightning_2_dot_zero', 
+    wandb_logger = WandbLogger( project= config.project_name, 
                                 config = config,
                                 job_type='Train',
                                 group= config.is_compiled,
-                                tags=['Lightning 2.0', 'torch.compile', config['is_compiled'], config['mode']],
+                                tags=['Lightning 2.0', 'torch.compile', config.is_compiled, config.mode],
                                 name= f"{config.model_name}" + f"_{config.is_compiled}" + f"_{config.mode}",
                                 anonymous='must')
     
