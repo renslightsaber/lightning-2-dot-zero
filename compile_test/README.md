@@ -4,13 +4,13 @@
 
 ## Brief Test Info
  - Reference: [Training Compiled PyTorch 2.0 with PyTorch Lightning](https://lightning.ai/pages/blog/training-compiled-pytorch-2.0-with-pytorch-lightning/)
- - DATA : [`CIFAR10`](https://pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
+ - DATA: [`CIFAR10`](https://pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
  - TASK: `Classification`
  - Evaluation Metric: `Accuracy`, `F1-Score`
  - Environment: Colab
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
- - model: `resnet50`, `resnet101`, ...
+ - model: `resnet50`, from `timm`
  - Batch_Size: `32`
  - Epochs: `7`
 
