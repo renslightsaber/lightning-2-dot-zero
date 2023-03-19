@@ -3,7 +3,7 @@
 <img src="/compile_test/imgs/스크린샷 2023-03-19 오후 2.28.18.png" width="99%"></img>
 
 ## Brief Test Info
-: Code is from reference below. Just added few tools for logging or metric, such as `wandb` or `torchmetrics`.
+Code is from reference below. Just added few tools for logging or metric, such as `wandb` or `torchmetrics`.
  
  - Reference: [Training Compiled PyTorch 2.0 with PyTorch Lightning](https://lightning.ai/pages/blog/training-compiled-pytorch-2.0-with-pytorch-lightning/)
  - DATA: [`CIFAR10`](https://pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
