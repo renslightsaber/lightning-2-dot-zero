@@ -17,5 +17,5 @@
  
 ## How to train in CLI? 
 - [pip install lightning ...](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/needs_to_install.md)
-- [⚡train in cli](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/compile_test/how_to_train.md) 
+- [⚡train in cli](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/compile_test/) 
 - Check [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/FB_TWO?workspace=user-wako)
