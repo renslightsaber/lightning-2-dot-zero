@@ -10,7 +10,7 @@
  - Environment: Colab
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
- - model: `resnet50` from `timm`
+ - model: `resnet50` from `timm` (more models will be added soon)
  - Batch_Size: `32`
  - Epochs: `7`
 
