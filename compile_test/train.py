@@ -120,7 +120,7 @@ def get_model(model_name = config['model_name'],
         return model
 
 
-
+############################### define() - argparse ######################################
 def define():
     p = argparse.ArgumentParser()
     
@@ -128,13 +128,14 @@ def define():
     p.add_argument('--is_compiled', type = str, default = "compiled", help="torch.compile() option: 'compiled' or 'not compiled'")
     p.add_argument('--mode', type = str, default = "default", help="torch.compile()'s mode: 'default', 'reduce-overhead', 'max-autotune' ")
     p.add_argument('--strategy', type = str, default = "auto", help="Lightning's Trainer Strategy: 'auto', 'ddp', 'fsdp', 'deepspeed', ... ")
-    p.add_argument('--n_epochs', type = int, default = 3, help="Epochs")
+    p.add_argument('--n_epochs', type = int, default = 15, help="Epochs")
     p.add_argument('--bs', type = int, default = 32, help="Batch Size")
 
     config = p.parse_args()
     return config
   
   
+################################## main() ####################################################
 def main(config):
     
     # Library Import 
@@ -166,8 +167,8 @@ def main(config):
     ## Trainer
     trainer = L.Trainer(accelerator = "auto", 
                         devices = -1, 
-                        max_epochs= config.n_epochs, # = 50, 
-                        logger = wandb_logger
+                        max_epochs= config.n_epochs,
+                        logger = wandb_logger,
                         strategy = config.strategy
                         )
     
