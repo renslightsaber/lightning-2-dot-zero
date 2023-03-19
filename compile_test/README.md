@@ -10,12 +10,12 @@
  - Environment: Colab
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
- - model: `resnet18`
+ - model: `resnet50`, `resnet150`
  - Batch_Size: `32`
- - Epochs: `50`
+ - Epochs: `7`
 
  
 ## How to train in CLI? 
-- [pip install ... ](https://github.com/renslightsaber/Kaggle_FB2/blob/main/needtoinstall.md)
+- [pip install lightning ...](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/needs_to_install.md)
 - [⚡train in cli](https://github.com/renslightsaber/Kaggle_FB2/blob/main/lightning) 
 - Check [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/FB_TWO?workspace=user-wako)
