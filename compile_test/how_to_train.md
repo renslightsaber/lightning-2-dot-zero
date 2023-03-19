@@ -3,9 +3,7 @@
 
 #### Check Jupyter Notebook Version at [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WQHt9KhTavEHC6CDkYSuBvoe8zgr4bk2?usp=sharing) 
 #### Check wandb at [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/Lightning_2_dot_zero?workspace=user-wako)
- : Just grouped by `compiled` or `Not compiled`
 
-<img src="/imgs/스크린샷 2023-03-16 오전 8.15.17.png" width="85%"></img>
 
  
 ## [wandb login in CLI interface](https://docs.wandb.ai/ref/cli/wandb-login)
