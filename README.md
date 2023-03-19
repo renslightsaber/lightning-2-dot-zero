@@ -7,7 +7,7 @@
 
 
 ## List to learn or test
-['Compatibility with torch.compile()' Test in Colab](https://github.com/renslightsaber/lightning-2-dot-zero/tree/main/compile_test)
+[[Working ... ]'Compatibility with torch.compile()' Test in Colab](https://github.com/renslightsaber/lightning-2-dot-zero/tree/main/compile_test)
 
 
 ## Need to install 
