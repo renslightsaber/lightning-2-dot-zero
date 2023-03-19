@@ -7,7 +7,7 @@
  - DATA: [`CIFAR10`](https://pytorch.org/vision/main/generated/torchvision.datasets.CIFAR10.html)
  - TASK: `Classification`
  - Evaluation Metric: `Accuracy`, `F1-Score`
- - Environment: Colab
+ - Environment: Colab (`python`: 3.9.16)
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
  - model: `resnet50`, `resnet101`, `resnet152` from `timm` (more models will be added soon)
