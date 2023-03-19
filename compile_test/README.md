@@ -10,12 +10,22 @@
  - Environment: Colab
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
- - model: `resnet50` from `timm` (more models will be added soon)
+ - model: `resnet50`, `resnet101`, `resnet152` from `timm` (more models will be added soon)
  - Batch_Size: `32`
  - Epochs: `7`
 
- 
 ## How to train in CLI? 
 - [pip install lightning ...](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/needs_to_install.md)
 - [⚡train in cli](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/compile_test/how_to_train.md) 
-- Check [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/FB_TWO?workspace=user-wako)
+
+
+## Check [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/Lightning_2_dot_zero?workspace=user-wako)
+
+`resnet50`
+<img src="/compile_test/imgs/스크린샷 2023-03-19 오후 8.32.34.png" width="99%"></img>
+
+`resnet101`
+<img src="/compile_test/imgs/스크린샷 2023-03-19 오후 8.33.12.png" width="99%"></img>
+
+`resnet152`
+<img src="/compile_test/imgs/스크린샷 2023-03-19 오후 8.32.11.png" width="99%"></img>
