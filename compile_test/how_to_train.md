@@ -18,6 +18,7 @@ $ wandb login --relogin '######### your API token ###########'
 $ python train.py --project_name 'Lightning_2_dot_zero' \
                   --is_compiled 'compiled' \
                   --model_name 'resnet152' \
+                  --mode 'default' \
                   --strategy 'auto' \
                   --n_epochs 7 \
                   --bs 32
