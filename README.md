@@ -7,7 +7,7 @@
 
 
 ## List to learn or test
-[[Working ... ]'Compatibility with torch.compile()' Test in Colab](https://github.com/renslightsaber/lightning-2-dot-zero/tree/main/compile_test)
+['Compatibility with torch.compile()' Test in Colab](https://github.com/renslightsaber/lightning-2-dot-zero/tree/main/compile_test) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WQHt9KhTavEHC6CDkYSuBvoe8zgr4bk2?usp=sharing) [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/Lightning_2_dot_zero?workspace=user-wako)
 
 
 ## Need to install 
