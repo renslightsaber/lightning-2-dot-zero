@@ -161,7 +161,7 @@ def main(config):
     wandb_logger = WandbLogger( project= config.project_name, 
                                 config = config,
                                 job_type='Train',
-                                group= config.is_compiled,
+                                group= f"{config.model_name}" + f"_{config.is_compiled}",
                                 tags=['Lightning 2.0', 'torch.compile', config.is_compiled, config.mode],
                                 name= f"{config.model_name}" + f"_{config.is_compiled}" + f"_{config.mode}",
                                 anonymous='must')
