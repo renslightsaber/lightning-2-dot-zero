@@ -20,17 +20,3 @@ $ pip install -qqq torchmetrics
 $ pip install -qqq timm
 ```
 
-
-## on Google Colab?
-#### Upgrade `torch` to `2.0.0`
-```bash
-!pip install --upgrade torch torchvision
-```
-#### [Lightning 2.0⚡](https://lightning.ai/docs/pytorch/stable/#install-lightning) on Colab
-```bash
-!pip install -qqq "rich>=12.3.0, <=13.0.1"
-!pip install -qqq pygments
-!pip install -qqq lightning
-```
-
-
