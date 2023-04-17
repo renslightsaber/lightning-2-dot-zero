@@ -31,14 +31,14 @@
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.12.23.png" width="99%"></img>
 -----------
 
- ### [[only_torch] CIFAR10_Classification.ipynb](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link)  
+ ### [[only_torch] CIFAR10_Classification.ipynb](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/fabric_test/ipynbs/%5Bonly_torch%5D%20CIFAR10_Classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link)  
   Classification Code with only `torch`.
  
   `torch.compile()` vs `Not torch.compile()`
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.33.51.png" width="99%"></img>
 -----------
 
- ### [[torch_with_fabric] CIFAR10_Classification_fabric.ipynb](https://colab.research.google.com/drive/14ALviftPRqwQdlHELyzhDnVtKqcSd90G?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14ALviftPRqwQdlHELyzhDnVtKqcSd90G?usp=share_link)  
+ ### [[torch_with_fabric] CIFAR10_Classification_fabric.ipynb](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/fabric_test/ipynbs/%5Btorch_with_fabric%5D%20CIFAR10_Classification_fabric.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14ALviftPRqwQdlHELyzhDnVtKqcSd90G?usp=share_link)  
  Classification Code with `torch` and `fabric`.  
  Tried:
  - `fabric = Fabric(accelerator= "auto", devices= "auto", strategy="auto")`
@@ -50,7 +50,7 @@
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.36.02.png" width="99%"></img>
 -----------
 
- ### [[lightning] CIFAR10_Classification.ipynb](https://colab.research.google.com/drive/1cxIZ9m_8_nM2nkqLqRcAPv2kIB8wmI2J?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cxIZ9m_8_nM2nkqLqRcAPv2kIB8wmI2J?usp=share_link)  
+ ### [[lightning] CIFAR10_Classification.ipynb](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/fabric_test/ipynbs/%5Blightning%5D%20CIFAR10_Classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cxIZ9m_8_nM2nkqLqRcAPv2kIB8wmI2J?usp=share_link)  
  Classification Code with `lightning`. 
  - `fabric = Fabric(accelerator= "auto", devices= "auto", strategy="auto")`
    `fabric.launch()`
@@ -62,7 +62,7 @@
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.36.27.png" width="99%"></img>
 -----------
 
- ### [[from_lightning_fabric] CIFAR10_Classification_fabric.ipynb](https://colab.research.google.com/drive/1lhrB6LBLUY_djSuQ66o47w3bt4h23Tsl?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lhrB6LBLUY_djSuQ66o47w3bt4h23Tsl?usp=share_link)  
+ ### [[from_lightning_fabric] CIFAR10_Classification_fabric.ipynb](https://github.com/renslightsaber/lightning-2-dot-zero/blob/main/fabric_test/ipynbs/%5Bfrom_lightning_fabric%5D%20CIFAR10_Classification_fabric.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lhrB6LBLUY_djSuQ66o47w3bt4h23Tsl?usp=share_link)  
  Converted classification Code with `lightning` to `torch` style code.
  - `training_epoch_end` is reaplaced to `on_train_epoch_end`
  - `validation_epoch_end` is reaplaced to `on_validation_epoch_end`
