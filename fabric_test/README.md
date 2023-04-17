@@ -17,9 +17,8 @@
  - Evaluation Metric: `F1-Score`
  - Environment: Colab 
     - `python`: `3.9.16`
-    - `Pytorch`: `2.0.0+cu118`
- - Pytorch Version: `2.0.0`
- - Lightning Version: `2.0.0`
+    - `torch`: `2.0.0+cu118`
+    - `lightning`: `2.0.1.post0`
  - `torch.compile()`
     - `mode` : `default` 
  - model: `resne18`
