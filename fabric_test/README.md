@@ -71,7 +71,7 @@
  
   `torch.compile()` vs `Not torch.compile()`
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.36.40.png" width="99%"></img>
-
+-----------
 
 
 ## References
