@@ -8,6 +8,7 @@
  I didn't know the existence of `fabric` before `Lightning 2.0` launched on March. `Lightning` and many people seems to look forward to experiencing `fabric`. This makes me curious of `fabric`.
  `fabric` can make things easier, and convert(?) `lightning` code into `torch` style. This looks interesting, convinced me that `fabric` could be important in the future of my career and decided to test. 
  
+<img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 10.02.12.png" width="99%"></img>
 
 ## Brief Test Info
  - Reference: 
