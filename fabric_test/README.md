@@ -6,7 +6,7 @@
 
 ## Why `Fabric`?
  I didn't know the existence of `fabric` before `Lightning 2.0` launched on March. `Lightning` and many people seems to look forward to experiencing `fabric`. This makes me curious of `fabric`.
- `fabric` can make things easier, and convert(?) `lightning` code into `pytorch` style. This looks interesting, convinced me that `fabric` could be important in the future of my career and decided to test. 
+ `fabric` can make things easier, and convert(?) `lightning` code into `torch` style. This looks interesting, convinced me that `fabric` could be important in the future of my career and decided to test. 
  
 
 ## Brief Test Info
@@ -26,7 +26,7 @@
  - Epochs: `10`
 
 ## Codes (Colab) [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/fabric_test?workspace=user-wako)
- Codes are shared in `Colab`.
+ Codes are shared in `Colab` link and also shared as 'Jupyter Notebook(.ipynb)' file in `ipynbs` folder.
 
  ### [[only_torch] CIFAR10_Classification.ipynb](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link)  
   Classification Code with only `torch`.
