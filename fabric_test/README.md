@@ -25,7 +25,7 @@
  - Batch_Size: `16`
  - Epochs: `10`
 
-## Codes (Colab) [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/fabric_test?workspace=user-wako)
+## Codes (Colab) and Wandb [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/fabric_test?workspace=user-wako)
  Codes are shared in `Colab` link and also shared as 'Jupyter Notebook(.ipynb)' file in `ipynbs` folder.
 
  ### [[only_torch] CIFAR10_Classification.ipynb](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-FhXe-IHWEaimXhM94Qx71idIcJP6uHr?usp=share_link)  
