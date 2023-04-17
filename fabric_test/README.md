@@ -64,7 +64,8 @@
  Converted classification Code with `lightning` to `torch` style code.
  - `training_epoch_end` is reaplaced to `on_train_epoch_end`
  - `validation_epoch_end` is reaplaced to `on_validation_epoch_end`
- - `torchmetrics`'s `metric.compute()`get some troubled, but the next day it was solved. (still don't know how it could be solved.) 
+ - `torchmetrics`'s `metric.compute()`  
+     : Got Errors because of `metric.compute()` but the next day it was solved. (still don't know how it could be solved.) 
  - `batch = model.training_step(data, step)`
  - `outputs = model.on_train_epoch_end()`
  
