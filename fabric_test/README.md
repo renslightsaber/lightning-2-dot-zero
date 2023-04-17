@@ -16,7 +16,7 @@
  - TASK: `Classification`
  - Evaluation Metric: `F1-Score`
  - Environment: Colab 
-    - `!python --version`: `3.9.16`
+    - `python`: `3.9.16`
     - `Pytorch`: `2.0.0+cu118`
  - Pytorch Version: `2.0.0`
  - Lightning Version: `2.0.0`
