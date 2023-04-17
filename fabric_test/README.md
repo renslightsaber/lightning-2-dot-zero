@@ -26,7 +26,7 @@
  - Epochs: `10`
 
 ## Codes (Colab) and Wandb [![wandb](https://raw.githubusercontent.com/wandb/assets/main/wandb-github-badge-gradient.svg)](https://wandb.ai/wako/fabric_test?workspace=user-wako)
- Codes are shared in `Colab` link and also shared as 'Jupyter Notebook(.ipynb)' file in `ipynbs` folder.
+ Codes are shared in `Colab` link and also shared as 'Jupyter Notebook(.ipynb)' file in [`ipynbs`](https://github.com/renslightsaber/lightning-2-dot-zero/tree/main/fabric_test/ipynbs) folder.
 
 <img src="/fabric_test/imgs/스크린샷 2023-04-17 오전 9.12.23.png" width="99%"></img>
 -----------
