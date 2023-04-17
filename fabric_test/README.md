@@ -22,7 +22,7 @@
  - Lightning Version: `2.0.0`
  - `torch.compile()`
     - `mode` : `default` 
- - model: `resne180`
+ - model: `resne18`
  - Batch_Size: `16`
  - Epochs: `10`
 
